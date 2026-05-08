@@ -39,7 +39,7 @@ uv sync
 
 ## 数据集准备 (Dataset Preparation)
 
-本项目使用到的自定义空气质量与气象数据集（如 `Center.csv`, `EastNorth.csv`, `Test.csv` 等大文件）由于体积过大，未直接包含在代码仓库中。我已将它们托管在了 Google Drive 上。
+本项目使用到的数据集（如 `Center.csv`, `EastNorth.csv`）托管在Google Drive上。
 
 请在运行实验前完成以下准备工作：
 1. 点击 [此 Google Drive 链接](https://drive.google.com/drive/folders/1xS70xUYvRajNtVtA-xlHMH4BjasWz0j5?usp=drive_link) 下载相关的数据集文件。

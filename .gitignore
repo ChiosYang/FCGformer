@@ -1,0 +1,13 @@
+.roo_storage
+checkpoints
+test_results
+dataset
+results
+settings
+frequency_outputs
+data_preprocess
+
+*.csv
+
+__pycache__/
+.DS_Store

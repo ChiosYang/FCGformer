@@ -57,7 +57,7 @@ class FGN(nn.Module):
             nn.LeakyReLU(),
             nn.Linear(self.hidden_size, self.pre_length)
         )
-        self.to('cuda:0')
+        # self.to('cuda:0')
 
     def tokenEmb(self, x):
         x = x.unsqueeze(2)

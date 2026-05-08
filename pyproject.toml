@@ -1,0 +1,19 @@
+[project]
+name = "fcgformer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "torch",
+    "torchvision",
+    "numpy",
+    "scipy",
+    "pandas",
+    "scikit-learn",
+    "matplotlib",
+    "reformer-pytorch",
+    "tqdm",
+    "psutil",
+    "nvidia-ml-py3",
+]

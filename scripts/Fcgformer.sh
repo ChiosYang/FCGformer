@@ -4,8 +4,8 @@ model_name=FCGformer
 
 python -u run.py \
   --is_training 1 \
-  --root_path ./dataset/AIR-EW/ \
-  --data_path AW-NEW.csv \
+  --root_path ./dataset/ \
+  --data_path Test.csv \
   --model_id FCGformer \
   --model $model_name \
   --data custom \

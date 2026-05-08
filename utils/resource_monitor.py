@@ -34,6 +34,7 @@ class ResourceMonitor:
         self.save_path = save_path
         self.is_monitoring = False
         self.monitoring_thread = None
+        self.error_messages = []
         
         # 初始化数据存储
         self.resource_data = {
@@ -64,8 +65,6 @@ class ResourceMonitor:
             'psutil_available': self.system_monitor_available,
             'environment_detected': None
         }
-        self.error_messages = []
-        
         # 检测环境
         self._detect_environment()
         

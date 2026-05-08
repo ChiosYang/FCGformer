@@ -6,7 +6,7 @@ results
 settings
 frequency_outputs
 data_preprocess
-
+light_result
 *.csv
 
 __pycache__/

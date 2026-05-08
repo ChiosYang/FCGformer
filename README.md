@@ -18,7 +18,7 @@
 本项目使用 **`uv`** 进行环境和依赖管理。项目依赖已统一记录在 `pyproject.toml` 中。
 
 ### 1. 安装 `uv` 工具
-根据您的操作系统安装 `uv`：
+根据您的操作系统安装 `uv`，Windows系统请尽量在WSL下使用：
 - **macOS / Linux / Windows(WSL)**:
   ```bash
   curl -LsSf https://astral.sh/uv/install.sh | sh

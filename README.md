@@ -37,6 +37,14 @@ uv sync
   source .venv/bin/activate
   ```
 
+## 数据集准备 (Dataset Preparation)
+
+本项目使用到的自定义空气质量与气象数据集（如 `Center.csv`, `EastNorth.csv`, `Test.csv` 等大文件）由于体积过大，未直接包含在代码仓库中。我已将它们托管在了 Google Drive 上。
+
+请在运行实验前完成以下准备工作：
+1. 点击 [此 Google Drive 链接](https://drive.google.com/drive/folders/1xS70xUYvRajNtVtA-xlHMH4BjasWz0j5?usp=drive_link) 下载相关的数据集文件。
+2. 将下载好的所有 `.csv` 数据文件放入项目根目录下的 `dataset/` 文件夹中。
+
 ## 快速开始
 
 ### 1. 模型训练 (Training)

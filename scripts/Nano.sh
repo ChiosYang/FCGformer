@@ -1,12 +1,12 @@
 export CUDA_VISIBLE_DEVICES=0
 
-model_name=FCGformer
+model_name=Nano
 
 python -u run.py \
   --is_training 1 \
   --root_path ./dataset/ \
   --data_path Test.csv \
-  --model_id FCGformer \
+  --model_id FCGformer-Nano \
   --model $model_name \
   --data custom \
   --features MS \
@@ -19,7 +19,7 @@ python -u run.py \
   --d_model 512 \
   --d_ff 512 \
   --itr 1 \
-  --batch_size 2048 \
+  --batch_size 512 \
   --patience 3 \
   --dropout 0.1 \
   --e_layers 4 \
